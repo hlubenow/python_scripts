@@ -2,7 +2,11 @@
 
 `gimphtml2pythoncode.py` converts a sprite-image, that's exported from GIMP as "HTML table", to Python code.
 
-I'd like to create sprite-image-code for my Pygame-games with GIMP. When I create a very small new image in GIMP with a size of let's say 8x8 pixels, switch on the grid and set the pen-size to 1 pixel, I can use GIMP to draw a simple sprite-image. I'd like to export that image in a format, that's directly usable in Python-scripts, so I'd like to have an output for example like this:
+I'd like to create sprite image code for my Pygame-games with GIMP. When in GIMP I
+- create a very small new image in GIMP with a size of let's say 8x8 pixels,
+- configure the grid (in the menu "Image") and switch it on (in the menu "View"), and
+- set the pen to a single pixel and the pen size to 1 pixel,
+I can use GIMP to draw a simple sprite-image. I'd like to export that image in a format, that's directly usable in Python-scripts. So I'd like to have a program output for example like this:
 ```
 #!/usr/bin/python
 
