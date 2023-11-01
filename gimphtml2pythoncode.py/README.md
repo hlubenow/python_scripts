@@ -1,6 +1,6 @@
 ### gimphtml2pythoncode.py 1.0
 
-`gimphtml2pythoncode.py` converts a sprite-image, that's exported from GIMP as "HTML table", to Python code.
+This script converts a sprite-image, that has been exported from GIMP as "HTML-Table", to Python code.
 
 I'd like to create sprite image code for my Pygame-games with GIMP. When in GIMP I
 
