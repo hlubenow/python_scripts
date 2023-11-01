@@ -22,7 +22,7 @@ spritedata = ("10111101",
               "00111100")
 ```
 
-It seems, GIMP can't directly export images to that format. But it can export to `HTML-Table`. In the dialog, diable `Create complete HTML document`, and set all borders to 0 units. If you do that, you get a file like `test.html` provided here.
+It seems, GIMP can't directly export images to that format. But it can export to `HTML-Table`. In the saving dialog, disable `Create complete HTML document`, and set all borders to 0 units. If you do that, you get a file like `test.html` provided here.
 You can then run `gimphtml2pythoncode.py` on it to get the output posted above.
 
 License: GNU GPL 3.
