@@ -3,7 +3,6 @@
 There are a few smaller Python scripts here:
 
 - lifetimes.py
-- gimphtml2pythoncode.py: Converts a gimp (sprite-) image, that's exported as "HTML table", to Python code.
 
 Python version: 2.7
 
