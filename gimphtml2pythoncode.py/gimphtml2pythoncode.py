@@ -22,8 +22,6 @@ import sys
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-FILENAME = "test.html"
-
 def getColornumbers(a):
     hexvals = {}
     for i in range(10, 16): 
@@ -70,12 +68,17 @@ def toPprint(a, firstline):
         b.append(s)
     return b
 
-fh = open(FILENAME, "r")
+# Main
+
+if len(sys.argv) < 2:
+    print "\nUsage: gimphtml2pythoncode.py [gimpimagefile.html]\n"
+    sys.exit(1)
+
+fh = open(sys.argv[1], "r")
 a = fh.readlines()
 fh.close()
 
 colornumbers = getColornumbers(a)
-
 
 b = []
 s = ""
@@ -102,4 +105,3 @@ for i in header:
 
 for i in b:
     print i
-
