@@ -4,7 +4,7 @@
 
 I'd like to create sprite-image-code for my Pygame-games with GIMP. When I create a very small new image in GIMP with a size of let's say 8x8 pixels, switch on the grid and set the pen-size to 1 pixel, I can use GIMP to draw a simple sprite-image. I'd like to export that image in a format, that's directly usable in Python-scripts, so I'd like to have an output for example like this:
 ```
-!/usr/bin/python
+#!/usr/bin/python
 
 spritedata = ("10111101",
               "11000011",
